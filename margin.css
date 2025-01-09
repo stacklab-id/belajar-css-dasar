@@ -1,0 +1,31 @@
+.wrap {
+	/*margin-top: 20px;
+	margin-right: 2%;
+	margin-bottom: 2em;
+	margin-left: 2rem;*/
+
+	margin: auto;
+	text-align: center;
+	width: 300px;
+}
+
+.container {
+	margin: 10px;
+	border: 2px solid red;
+}
+
+.parent {
+	margin: 20px 10px;
+}
+
+.child {
+	margin: inherit;
+}
+
+h1 {
+	margin-bottom: 50px;
+}
+
+h2 {
+	margin-top: 20px;
+}

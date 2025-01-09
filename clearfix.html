@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Belajar CSS | Clearfix</title>
+
+	<style>
+		.clearfix {
+			border: 2px solid red;
+		}
+
+		.clearfix img {
+			float: right;
+		}
+
+		.clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+	</style>
+</head>
+<body>
+	<div class="clearfix">
+		<img src="./assets/clearfix.jpg" width="170" height="170">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua.
+	</div>
+</body>
+</html>

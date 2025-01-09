@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Belajar CSS | List</title>
+	<style>
+
+		body {
+			font-size: 35px;
+			line-height: 1.5;
+		}
+
+		.square {
+			list-style-type: square;
+		}
+
+		.roman {
+			list-style-type: upper-roman;
+		}
+
+		.list-image {
+			list-style-image: url('./assets/check.png');
+		}
+
+		.inside li, .outside li {
+			border: 2px solid #000;
+		}
+
+		.inside {
+			list-style-position: inside;
+		}
+
+		.outside {
+			list-style-position: outside;
+		}
+	</style>
+</head>
+<body>
+	<h1>Belajar List Style</h1>
+	<ul class="square">
+		<li>Air Mineral</li>
+		<li>Susu</li>
+		<li>Kopi</li>
+	</ul>
+
+	<ol class="roman">
+		<li>Jakarta</li>
+		<li>Bandung</li>
+		<li>Semarang</li>
+	</ol>
+
+	<ul class="list-image">
+		<li>Coding</li>
+		<li>Swimming</li>
+		<li>Gaming</li>
+		<li>Reading</li>
+	</ul>
+
+	<ul class="inside">
+		<li>A</li>
+		<li>B</li>
+		<li>C</li>
+		<li>D</li>
+	</ul>
+
+	<ul class="outside">
+		<li>E</li>
+		<li>F</li>
+		<li>G</li>
+		<li>H</li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Belajar CSS | Absolute</title>
+	<style>
+		.parent {
+			position: relative;
+			border: 3px solid green;
+			width: 400px;
+			height: 200px;
+		}
+
+		.child {
+			border: 3px solid green;
+			width: 200px;
+			height: 100px;
+			position: absolute;
+			top: 50px;
+			right: 0;
+		}
+
+	</style>
+</head>
+<body>
+
+	<h1>Belajar Absolute</h1>
+	<div class="parent">
+		<p>ini adalah konten parent</p>
+		<div class="child">ini adalah konten child</div>
+	</div>
+</body>
+</html>

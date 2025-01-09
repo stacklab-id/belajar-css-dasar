@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Belajar CSS | Specificity</title>
+	<style>
+		.p-1 {
+			color: green;
+		}
+
+		p {
+			color: red;	
+		}
+
+		.list-city {
+			color: green !important;
+		}
+
+		ul#city li {
+			color: red;
+		}
+
+	</style>
+</head>
+<body>
+	<p class="p-1">ini adalah paragraf</p>
+	<ul id="city">
+		<li class="list-city">Jakarta</li>
+		<li>Semarang</li>
+		<li>Bandung</li>
+	</ul>
+</body>
+</html>
